@@ -4,14 +4,12 @@ const Header = () => (
       <div className="px-4 py-3 lg:px-16">
         <div className="flex items-center">
           <div className="flex items-center text-2xl font-light">
-            <div className="w-8">
-              <img
-                loading="lazy"
-                alt="CreativeCraft"
-                className="w-8 mr-3"
-                src="/images/logo-small.png"
-              />
-            </div>
+            <img
+              loading="lazy"
+              alt="CreativeCraft"
+              className="w-8 mr-3"
+              src="/images/logo-small.png"
+            />
             <span className="text-green-500">Creative</span>Craft
           </div>
 
