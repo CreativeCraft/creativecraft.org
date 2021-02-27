@@ -62,7 +62,8 @@ export default function Home() {
         <div className="container relative h-full">
           <div className="flex flex-col items-center justify-center h-full">
             <h1 className="mb-2 text-5xl font-light lg:text-7xl">
-              <span className="text-green-500">Creative</span>Craft
+              <span className="font-semibold text-green-500">Creative</span>
+              Craft
             </h1>
 
             <p className="mb-4 text-base lg:text-lg">
@@ -72,7 +73,7 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-2 mb-4 md:grid-cols-4">
               <CopyToClipboard text="play.creativecraft.org">
-                <span className="flex items-center justify-center px-3 text-sm leading-9 text-white transition transform bg-green-500 rounded shadow cursor-pointer hover:bg-opacity-95 text-shadow-md hover:scale-105">
+                <span className="flex items-center justify-center px-2 text-sm leading-9 text-white transition transform bg-green-500 rounded shadow cursor-pointer hover:bg-opacity-95 text-shadow-md hover:scale-105">
                   <svg
                     className="w-4 mr-2 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +93,7 @@ export default function Home() {
               <a
                 href="#"
                 target="_blank"
-                className="flex items-center justify-center px-4 text-sm leading-9 text-white transition transform bg-green-500 rounded shadow hover:bg-opacity-95 text-shadow-md hover:scale-105"
+                className="flex items-center justify-center px-2 text-sm leading-9 text-white transition transform bg-green-500 rounded shadow hover:bg-opacity-95 text-shadow-md hover:scale-105"
               >
                 <svg
                   className="w-4 mr-2 fill-current"
@@ -112,7 +113,7 @@ export default function Home() {
               <a
                 href="/discord"
                 target="_blank"
-                className="flex items-center justify-center px-4 text-sm leading-9 text-white transition transform rounded shadow hover:bg-opacity-95 bg-social-discord text-shadow-md hover:scale-105"
+                className="flex items-center justify-center px-2 text-sm leading-9 text-white transition transform rounded shadow hover:bg-opacity-95 bg-social-discord text-shadow-md hover:scale-105"
               >
                 <span>
                   <svg
@@ -130,7 +131,7 @@ export default function Home() {
               <a
                 href="#"
                 target="_blank"
-                className="flex items-center justify-center px-4 text-sm leading-9 text-white transition transform bg-red-800 rounded shadow hover:bg-opacity-95 text-shadow-md hover:scale-105"
+                className="flex items-center justify-center px-2 text-sm leading-9 text-white transition transform bg-red-800 rounded shadow hover:bg-opacity-95 text-shadow-md hover:scale-105"
               >
                 <svg
                   className="w-4 mr-2 fill-current"
