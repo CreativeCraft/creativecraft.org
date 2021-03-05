@@ -7,20 +7,16 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <div className="font-sans antialiased text-gray-200">
       <Head>
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
-        />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
 
       <NextSeo
-        title="CreativeCraft – Creative Minecraft Server"
+        title="CreativeCraft – Builder-focused Minecraft"
         description="Welcome to CreativeCraft! Enjoy an open creative world, massive plots, minigames and more. Join the fun!"
         canonical="https://creativecraft.org"
         openGraph={{
           url: 'https://creativecraft.org',
-          title: 'CreativeCraft – Creative Minecraft Server',
+          title: 'CreativeCraft – Builder-focused Minecraft',
           description:
             'Welcome to CreativeCraft! Enjoy an open creative world, massive plots, minigames and more. Join the fun!',
           site_name: 'CreativeCraft',

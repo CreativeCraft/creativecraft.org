@@ -1,5 +1,6 @@
 import Particles from 'react-particles-js'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
+import Toast from 'light-toast'
 
 export default function Home() {
   return (
@@ -61,9 +62,9 @@ export default function Home() {
 
         <div className="container relative h-full">
           <div className="flex flex-col items-center justify-center h-full">
-            <h1 className="mb-2 text-5xl font-light lg:text-7xl">
-              <span className="font-semibold text-green-500">Creative</span>
-              Craft
+            <h1 className="mb-2 text-5xl lg:text-6xl">
+              <span className="text-green-500">Creative</span>
+              <span className="font-light">Craft</span>
             </h1>
 
             <p className="mb-4 text-base lg:text-lg">
@@ -72,26 +73,32 @@ export default function Home() {
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4 md:grid-cols-4">
-              <CopyToClipboard text="play.creativecraft.org">
-                <span className="flex items-center justify-center px-2 text-sm leading-9 text-white transition transform bg-green-500 rounded shadow cursor-pointer hover:bg-opacity-95 text-shadow-md hover:scale-105">
-                  <svg
-                    className="w-4 mr-2 fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  Play Now
-                </span>
-              </CopyToClipboard>
+              <div
+                onClick={() => {
+                  Toast.success('Copied to Clipboard')
+                }}
+              >
+                <CopyToClipboard text="play.creativecraft.org">
+                  <span className="flex items-center justify-center px-2 text-sm leading-9 text-white transition transform bg-green-500 rounded shadow cursor-pointer hover:bg-opacity-95 text-shadow-md hover:scale-105">
+                    <svg
+                      className="w-4 mr-2 fill-current"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    Play Now
+                  </span>
+                </CopyToClipboard>
+              </div>
 
               <a
-                href="#"
+                href="https://donate.creativecraft.org"
                 target="_blank"
                 className="flex items-center justify-center px-2 text-sm leading-9 text-white transition transform bg-green-500 rounded shadow hover:bg-opacity-95 text-shadow-md hover:scale-105"
               >

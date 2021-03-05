@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        mono: ['Fira Code', 'monospace'],
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         social: {
