@@ -1,5 +1,3 @@
-import PlayerCount from './player-count'
-
 const Header = () => (
   <div className="fixed z-10 w-full bg-white shadow">
     <div className="text-white bg-black bg-opacity-90">
@@ -17,10 +15,6 @@ const Header = () => (
             </span>
             <span className="font-light">Craft</span>
           </a>
-
-          <div className="ml-auto -my-3 -mr-4 lg:-mt-6 lg:-mb-8 lg:mx-auto lg:transform lg:-translate-x-full">
-            <PlayerCount />
-          </div>
         </div>
       </div>
     </div>

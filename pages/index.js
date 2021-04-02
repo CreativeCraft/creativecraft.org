@@ -72,7 +72,7 @@ export default function Home() {
               <span className="text-green-500">Minecraft</span> Experience
             </p>
 
-            <div className="grid grid-cols-2 gap-2 mb-4 md:grid-cols-4">
+            <div className="grid grid-cols-2 gap-2 mb-4 md:grid-cols-3">
               <div
                 onClick={() => {
                   Toast.success('Copied to Clipboard')
@@ -133,26 +133,6 @@ export default function Home() {
                   </svg>
                 </span>
                 <span>Discord</span>
-              </a>
-
-              <a
-                href="#"
-                target="_blank"
-                className="flex items-center justify-center px-2 text-sm leading-9 text-white transition transform bg-red-800 rounded shadow hover:bg-opacity-95 text-shadow-md hover:scale-105"
-              >
-                <svg
-                  className="w-4 mr-2 fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                Appeal Ban
               </a>
             </div>
           </div>

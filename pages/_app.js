@@ -11,12 +11,12 @@ export default function MyApp({ Component, pageProps }) {
       </Head>
 
       <NextSeo
-        title="CreativeCraft – Builder-focused Minecraft"
+        title="CreativeCraft – Builder-focused Minecraft Server"
         description="Welcome to CreativeCraft! Enjoy an open creative world, massive plots, minigames and more. Join the fun!"
         canonical="https://creativecraft.org"
         openGraph={{
           url: 'https://creativecraft.org',
-          title: 'CreativeCraft – Builder-focused Minecraft',
+          title: 'CreativeCraft – Builder-focused Minecraft Server',
           description:
             'Welcome to CreativeCraft! Enjoy an open creative world, massive plots, minigames and more. Join the fun!',
           site_name: 'CreativeCraft',
